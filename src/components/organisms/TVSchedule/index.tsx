@@ -37,9 +37,7 @@ const TVSchedule: React.FC = () => {
       horaActual++;
       minutosRedondeados = 0;
     }
-  
-    // horaActual--;
-  
+
     if (horaActual < 0) {
       horaActual = 23;
     }
