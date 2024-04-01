@@ -1,4 +1,4 @@
-import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
+import { configureStore, ThunkAction } from '@reduxjs/toolkit';
 
 import channelReducer from './api/channelAPI';
 
